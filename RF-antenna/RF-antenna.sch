@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -941,6 +940,87 @@ modify as necessary!</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="linear-technology-jqi">
+<packages>
+<package name="DFN-10_DD">
+<smd name="1" x="-1.4478" y="1" dx="0.8128" dy="0.3048" layer="1"/>
+<smd name="2" x="-1.4478" y="0.5" dx="0.8128" dy="0.3048" layer="1"/>
+<smd name="3" x="-1.4478" y="0" dx="0.8128" dy="0.3048" layer="1"/>
+<smd name="4" x="-1.4478" y="-0.5" dx="0.8128" dy="0.3048" layer="1"/>
+<smd name="5" x="-1.4478" y="-1" dx="0.8128" dy="0.3048" layer="1" thermals="no"/>
+<smd name="6" x="1.4478" y="-1" dx="0.8128" dy="0.3048" layer="1"/>
+<smd name="7" x="1.4478" y="-0.5" dx="0.8128" dy="0.3048" layer="1"/>
+<smd name="8" x="1.4478" y="0" dx="0.8128" dy="0.3048" layer="1" thermals="no"/>
+<smd name="9" x="1.4478" y="0.5" dx="0.8128" dy="0.3048" layer="1"/>
+<smd name="10" x="1.4478" y="1" dx="0.8128" dy="0.3048" layer="1"/>
+<smd name="11" x="0" y="0" dx="1.7526" dy="2.4892" layer="1" thermals="no" cream="no"/>
+<wire x1="1.5494" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="21"/>
+<wire x1="-0.3048" y1="1.5494" x2="-1.5494" y2="1.5494" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.5494" y1="-1.5494" x2="1.5494" y2="-1.5494" width="0.1524" layer="21"/>
+<wire x1="1.5494" y1="-1.5494" x2="1.5494" y2="1.5494" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="21"/>
+<wire x1="-1.5494" y1="1.5494" x2="-1.5494" y2="-1.5494" width="0.1524" layer="21"/>
+<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="21" curve="-180"/>
+<rectangle x1="-0.762" y1="0.508" x2="0.762" y2="1.016" layer="31"/>
+<rectangle x1="-0.762" y1="-0.254" x2="0.762" y2="0.254" layer="31"/>
+<rectangle x1="-0.762" y1="-1.016" x2="0.762" y2="-0.508" layer="31"/>
+<text x="-1.27" y="1.905" size="0.762" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LT3065EDDPBF">
+<pin name="IN_2" x="-12.7" y="7.62" length="short" direction="in"/>
+<pin name="IN" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="*SHDN" x="-12.7" y="2.54" length="short" direction="pas"/>
+<pin name="PWRGD" x="-12.7" y="0" length="short" direction="pwr"/>
+<pin name="IMAX" x="-12.7" y="-2.54" length="short" direction="pas"/>
+<pin name="REF/BYP" x="15.24" y="-5.08" length="short" direction="pas" rot="R180"/>
+<pin name="GND/ADJ" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="ADJ/SEN" x="15.24" y="0" length="short" rot="R180"/>
+<pin name="OUT_2" x="15.24" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="OUT" x="15.24" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="15.24" y="7.62" length="short" direction="pwr" rot="R180"/>
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="10.16" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="94"/>
+<text x="-4.7244" y="14.1986" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-5.3594" y="11.6586" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LT3065EDDPBF" prefix="U" uservalue="yes">
+<description>LT3065, 500 mA, low noise linear regulator</description>
+<gates>
+<gate name="A" symbol="LT3065EDDPBF" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN-10_DD">
+<connects>
+<connect gate="A" pin="*SHDN" pad="3"/>
+<connect gate="A" pin="ADJ/SEN" pad="8"/>
+<connect gate="A" pin="GND" pad="11"/>
+<connect gate="A" pin="GND/ADJ" pad="7"/>
+<connect gate="A" pin="IMAX" pad="5"/>
+<connect gate="A" pin="IN" pad="2"/>
+<connect gate="A" pin="IN_2" pad="1"/>
+<connect gate="A" pin="OUT" pad="10"/>
+<connect gate="A" pin="OUT_2" pad="9"/>
+<connect gate="A" pin="PWRGD" pad="4"/>
+<connect gate="A" pin="REF/BYP" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER_PART_NUMBER" value="lt3065edd#pbf" constant="no"/>
+<attribute name="VENDOR" value="Linear Technology" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -961,6 +1041,7 @@ modify as necessary!</description>
 <part name="X4" library="connector-jqi" deviceset="SMA" device="-V"/>
 <part name="IC1" library="opamp-jqi" deviceset="OPAMP" device="-SO"/>
 <part name="CON1" library="qkdlab_alessandro" deviceset="UMC_CONNECTOR" device="REGULAR"/>
+<part name="U1" library="linear-technology-jqi" deviceset="LT3065EDDPBF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -981,6 +1062,7 @@ modify as necessary!</description>
 <instance part="X4" gate="G$1" x="64.77" y="140.97"/>
 <instance part="IC1" gate="G$1" x="115.57" y="133.35"/>
 <instance part="CON1" gate="G$1" x="157.48" y="140.97"/>
+<instance part="U1" gate="A" x="180.34" y="154.94"/>
 </instances>
 <busses>
 </busses>
