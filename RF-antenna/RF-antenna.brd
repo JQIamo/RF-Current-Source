@@ -186,10 +186,6 @@
 <plain>
 <circle x="54.102" y="54.102" radius="29.845" width="0.254" layer="20"/>
 <circle x="54.102" y="54.102" radius="54.102" width="0.254" layer="20"/>
-<hole x="90.297" y="54.102" drill="2.3749"/>
-<hole x="54.102" y="90.297" drill="2.3749"/>
-<hole x="17.907" y="54.102" drill="2.3749"/>
-<hole x="54.102" y="17.907" drill="2.3749"/>
 <hole x="79.7052" y="79.7052" drill="2.3749"/>
 <hole x="79.7052" y="28.4988" drill="2.3749"/>
 <hole x="28.4988" y="28.4988" drill="2.3749"/>
@@ -864,10 +860,10 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="NAME" x="107.442" y="51.054" size="0.889" layer="25" rot="R90"/>
 <attribute name="VALUE" x="105.918" y="53.34" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LW3" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="17.018" y="51.054"/>
-<element name="LW4" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="16.764" y="59.69"/>
-<element name="LW5" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="91.694" y="57.912"/>
-<element name="LW6" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="94.488" y="45.974"/>
+<element name="LW3" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="19.685" y="51.1048"/>
+<element name="LW4" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="7.112" y="60.198"/>
+<element name="LW5" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="88.138" y="59.944"/>
+<element name="LW6" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="101.092" y="48.006"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -968,10 +964,10 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <vertex x="55.372" y="13.97"/>
 </polygon>
 <polygon width="0.254" layer="1" pour="cutout" isolate="0.3048" rank="5">
-<vertex x="54.102" y="13.97"/>
+<vertex x="54.102" y="15.24"/>
 <vertex x="54.102" y="11.43"/>
 <vertex x="55.372" y="11.43"/>
-<vertex x="55.372" y="13.97"/>
+<vertex x="55.372" y="15.24"/>
 </polygon>
 <via x="57.15" y="12.954" extent="1-16" drill="0.3048"/>
 <via x="58.674" y="11.43" extent="1-16" drill="0.3048"/>
@@ -1087,10 +1083,10 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <vertex x="13.97" y="52.832"/>
 </polygon>
 <polygon width="0.254" layer="1" pour="cutout" isolate="0.3048" rank="5">
-<vertex x="13.97" y="54.102"/>
+<vertex x="15.24" y="54.102"/>
 <vertex x="11.43" y="54.102"/>
 <vertex x="11.43" y="52.832"/>
-<vertex x="13.97" y="52.832"/>
+<vertex x="15.24" y="52.832"/>
 </polygon>
 <via x="12.954" y="51.054" extent="1-16" drill="0.3048"/>
 <via x="11.43" y="49.53" extent="1-16" drill="0.3048"/>
@@ -1206,10 +1202,10 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <vertex x="94.234" y="55.372"/>
 </polygon>
 <polygon width="0.254" layer="1" pour="cutout" isolate="0.3048" rank="5">
-<vertex x="94.234" y="54.102"/>
+<vertex x="92.964" y="54.102"/>
 <vertex x="96.774" y="54.102"/>
 <vertex x="96.774" y="55.372"/>
-<vertex x="94.234" y="55.372"/>
+<vertex x="92.964" y="55.372"/>
 </polygon>
 <via x="95.25" y="57.15" extent="1-16" drill="0.3048"/>
 <via x="96.774" y="58.674" extent="1-16" drill="0.3048"/>
@@ -1424,10 +1420,16 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <wire x1="48.0038" y1="7.112" x2="46.736" y2="7.112" width="0.381" layer="1"/>
 <via x="46.736" y="7.112" extent="1-16" drill="0.3048"/>
 <wire x1="46.736" y1="7.112" x2="46.1772" y2="7.112" width="0.381" layer="16"/>
-<wire x1="55.858796875" y1="23.1638375" x2="55.88" y2="23.114" width="0" layer="19" extent="1-1"/>
+<wire x1="54.737" y1="21.5392" x2="55.88" y2="23.114" width="0.6096" layer="1" curve="-71.944765"/>
+<wire x1="54.737" y1="12.7" x2="54.737" y2="21.5392" width="0.6096" layer="1"/>
+<wire x1="48.006" y1="7.1142" x2="48.006" y2="13.462" width="1.016" layer="1"/>
+<wire x1="48.006" y1="13.462" x2="51.054" y2="17.018" width="1.016" layer="1" curve="-81.202573"/>
+<wire x1="51.054" y1="17.018" x2="53.34" y2="19.304" width="1.016" layer="1" curve="72.405209"/>
+<wire x1="53.34" y1="19.304" x2="53.4162" y2="20.8534" width="1.016" layer="1" curve="11.963675"/>
+<wire x1="53.4162" y1="20.8534" x2="53.34" y2="21.9456" width="1.016" layer="1" curve="1.649268"/>
+<wire x1="53.34" y1="21.9456" x2="52.324" y2="23.114" width="1.016" layer="1" curve="72.387043"/>
+<wire x1="55.88" y1="23.114" x2="55.858796875" y2="23.1638375" width="0" layer="19" extent="1-1"/>
 <wire x1="52.324" y1="23.114" x2="52.345203125" y2="23.1638375" width="0" layer="19" extent="1-1"/>
-<wire x1="54.737" y1="12.7" x2="55.88" y2="23.114" width="0" layer="19" extent="1-1"/>
-<wire x1="50.2778" y1="7.1142" x2="54.737" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D1_COIL">
 <contactref element="LW3" pad="T1"/>
@@ -1451,11 +1453,26 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <wire x1="103.747840625" y1="72.171609375" x2="72.171609375" y2="103.747840625" width="1.27" layer="1" curve="49.999998"/>
 <wire x1="84.89196875" y1="65.30863125" x2="65.30863125" y2="84.89196875" width="1.27" layer="1" curve="50.000003"/>
 <wire x1="84.89196875" y1="65.30863125" x2="103.747840625" y2="72.171609375" width="1.27" layer="1"/>
-<wire x1="16.764" y1="59.69" x2="65.30863125" y2="84.89196875" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="53.467" x2="16.764" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="17.018" y1="51.054" x2="12.7" y2="53.467" width="0" layer="19" extent="1-1"/>
-<wire x1="19.689453125" y1="51.091290625" x2="17.018" y2="51.054" width="0" layer="19" extent="1-1"/>
-<wire x1="7.1142" y1="57.9262" x2="12.7" y2="53.467" width="0" layer="19" extent="1-1"/>
+<via x="21.460684375" y="51.24625625" extent="1-16" drill="0.508"/>
+<via x="65.30863125" y="84.89196875" extent="1-16" drill="0.508"/>
+<wire x1="72.171609375" y1="103.747840625" x2="65.91674375" y2="86.562740625" width="1.27" layer="1"/>
+<wire x1="63.133534375" y1="85.5987" x2="22.452475" y2="62.582465625" width="1.27" layer="16" curve="91"/>
+<wire x1="63.420271875" y1="83.65578125" x2="23.14349375" y2="52.750321875" width="1.27" layer="16" curve="110.000002"/>
+<wire x1="63.420271875" y1="83.65578125" x2="65.30863125" y2="84.89196875" width="1.27" layer="16"/>
+<wire x1="63.133534375" y1="85.5987" x2="64.262" y2="86.36" width="1.27" layer="16"/>
+<wire x1="64.262" y1="86.36" x2="65.91674375" y2="86.562740625" width="1.27" layer="16" curve="-54.03957"/>
+<via x="65.91674375" y="86.562740625" extent="1-16" drill="0.508"/>
+<wire x1="23.14349375" y1="52.750321875" x2="21.460684375" y2="51.24625625" width="1.27" layer="16"/>
+<wire x1="12.7" y1="53.467" x2="15.8496" y2="53.467" width="0.6096" layer="1"/>
+<wire x1="15.8496" y1="53.467" x2="18.288" y2="53.086" width="0.6096" layer="1" curve="-17.761316"/>
+<wire x1="18.288" y1="53.086" x2="19.304" y2="52.324" width="0.6096" layer="1" curve="-38.217143"/>
+<wire x1="19.304" y1="52.324" x2="19.685" y2="51.1048" width="0.6096" layer="1" curve="-33.335057"/>
+<via x="22.452475" y="62.582465625" extent="1-16" drill="0.508"/>
+<wire x1="7.1142" y1="60.198" x2="17.018" y2="60.198" width="1.016" layer="1"/>
+<wire x1="17.018" y1="60.198" x2="20.32" y2="60.452" width="1.016" layer="1" curve="8.797411"/>
+<wire x1="20.32" y1="60.452" x2="22.452475" y2="62.582465625" width="1.016" layer="1" curve="72.351251"/>
+<wire x1="19.689453125" y1="51.091290625" x2="19.685" y2="51.1048" width="0" layer="19" extent="1-1"/>
+<wire x1="7.112" y1="60.198" x2="7.112" y2="60.2002" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2_COIL">
 <contactref element="LW5" pad="T1"/>
@@ -1470,17 +1487,36 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <wire x1="101.092" y1="48.0038" x2="101.092" y2="46.736" width="0.381" layer="1"/>
 <via x="101.092" y="46.736" extent="1-16" drill="0.3048"/>
 <wire x1="101.092" y1="46.736" x2="101.092" y2="46.1772" width="0.381" layer="16"/>
-<wire x1="36.032390625" y1="103.747840625" x2="4.456159375" y2="72.171609375" width="1.27" layer="1" curve="49.999998"/>
-<wire x1="42.89536875" y1="84.89196875" x2="23.31203125" y2="65.30863125" width="1.27" layer="1" curve="50.000003"/>
+<wire x1="4.456159375" y1="72.171609375" x2="36.032390625" y2="103.747840625" width="1.27" layer="1" curve="-49.999998"/>
+<wire x1="23.31203125" y1="65.30863125" x2="42.89536875" y2="84.89196875" width="1.27" layer="1" curve="-50.000003"/>
 <wire x1="4.456159375" y1="72.171609375" x2="23.31203125" y2="65.30863125" width="1.27" layer="1"/>
 <wire x1="65.30863125" y1="23.31203125" x2="84.89196875" y2="42.89536875" width="1.27" layer="1" curve="50.000003"/>
 <wire x1="72.171609375" y1="4.456159375" x2="103.747840625" y2="36.032390625" width="1.27" layer="1" curve="49.999998"/>
 <wire x1="72.171609375" y1="4.456159375" x2="65.30863125" y2="23.31203125" width="1.27" layer="1"/>
-<wire x1="95.504" y1="54.737" x2="91.694" y2="57.912" width="0" layer="19" extent="1-1"/>
-<wire x1="101.0898" y1="50.2778" x2="95.504" y2="54.737" width="0" layer="19" extent="1-1"/>
-<wire x1="94.488" y1="45.974" x2="101.092" y2="46.1772" width="0" layer="19" extent="1-16"/>
-<wire x1="84.89196875" y1="42.89536875" x2="94.488" y2="45.974" width="0" layer="19" extent="1-1"/>
-<wire x1="42.89536875" y1="84.89196875" x2="91.694" y2="57.912" width="0" layer="19" extent="1-1"/>
+<wire x1="68.001828125" y1="87.659153125" x2="41.67914375" y2="88.233515625" width="1.27" layer="16" curve="42.500001"/>
+<wire x1="70.20375625" y1="88.632325" x2="41.07103125" y2="89.9042875" width="1.27" layer="16" curve="45.000004"/>
+<wire x1="42.89536875" y1="84.89196875" x2="41.67914375" y2="88.233515625" width="1.27" layer="1"/>
+<via x="41.67914375" y="88.233515625" extent="1-16" drill="0.508"/>
+<wire x1="36.032390625" y1="103.747840625" x2="41.07103125" y2="89.9042875" width="1.27" layer="1"/>
+<via x="41.07103125" y="89.9042875" extent="1-16" drill="0.508"/>
+<wire x1="103.747840625" y1="36.032390625" x2="86.562740625" y2="42.28725625" width="1.27" layer="1"/>
+<wire x1="86.562740625" y1="42.28725625" x2="87.82716875" y2="46.625309375" width="1.27" layer="1" curve="7.499999"/>
+<wire x1="84.89196875" y1="42.89536875" x2="86.58768125" y2="58.378821875" width="1.27" layer="1" curve="27.5"/>
+<wire x1="68.410665625" y1="81.588690625" x2="84.355459375" y2="60.80903125" width="1.27" layer="16" curve="-49.999998"/>
+<wire x1="70.485" y1="82.4781875" x2="85.751525" y2="62.582465625" width="1.27" layer="16" curve="-44.999998"/>
+<wire x1="70.485" y1="82.4781875" x2="70.20375625" y2="88.632325" width="1.27" layer="16"/>
+<wire x1="68.410665625" y1="81.588690625" x2="68.001828125" y2="87.659153125" width="1.27" layer="16"/>
+<wire x1="84.355459375" y1="60.80903125" x2="86.58768125" y2="58.378821875" width="1.27" layer="16"/>
+<via x="86.58768125" y="58.378821875" extent="1-16" drill="0.508"/>
+<wire x1="85.751525" y1="62.582465625" x2="88.138" y2="59.944" width="1.27" layer="16"/>
+<via x="88.138" y="59.944" extent="1-16" drill="0.508"/>
+<wire x1="89.662" y1="48.006" x2="87.82716875" y2="46.625309375" width="1.016" layer="1" curve="73.92207"/>
+<wire x1="101.0898" y1="48.006" x2="89.662" y2="48.006" width="1.016" layer="1"/>
+<wire x1="95.504" y1="54.737" x2="92.1512" y2="54.737" width="0.6096" layer="1"/>
+<wire x1="92.1512" y1="54.737" x2="89.916" y2="55.372" width="0.6096" layer="1" curve="-31.718725"/>
+<wire x1="89.916" y1="55.372" x2="88.392" y2="57.658" width="0.6096" layer="1" curve="-49.182377"/>
+<wire x1="88.392" y1="57.658" x2="88.138" y2="59.944" width="0.6096" layer="1" curve="-5.517365"/>
+<wire x1="101.092" y1="48.0038" x2="101.092" y2="48.006" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
