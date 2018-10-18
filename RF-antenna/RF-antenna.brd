@@ -532,6 +532,17 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </package>
 </packages>
 </library>
+<library name="fiducials-jqi">
+<packages>
+<package name="FID_1.0MM">
+<description>1 mm SMD Fiducial in 3 mm Opening</description>
+<smd name="FID" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" thermals="no" cream="no"/>
+<circle x="0" y="0" radius="0.75" width="1.5" layer="29"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="0.75" width="1.5" layer="41"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -763,7 +774,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="46.8442" y="2.47" size="0.889" layer="25" font="vector"/>
 <attribute name="PARTNO" value="PHP01206E10R0BST5" x="48.006" y="5.6642" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="JP1" library="pinhead" package="1X03" value="" x="59.944" y="5.842" smashed="yes" rot="MR90">
+<element name="JP1" library="pinhead" package="1X03" value="DNP" x="59.944" y="5.842" smashed="yes" rot="MR90">
 <attribute name="NAME" x="63.0428" y="1.9558" size="1.27" layer="26" ratio="10" rot="MR90"/>
 <attribute name="PARTNO" value="640456-3" x="59.944" y="5.842" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="56.769" y="2.032" size="1.27" layer="28" rot="MR90"/>
@@ -771,7 +782,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="CON1" library="qkdlab_alessandro" package="UMC_CONNECTOR" value="UMC_CONNECTORREGULAR" x="44.704" y="7.112" rot="MR180">
 <attribute name="PARTNO" value="1909763-1" x="44.704" y="7.112" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="LG" library="jqi_passives" package="1008" value="" x="51.054" y="3.302" smashed="yes">
+<element name="LG" library="jqi_passives" package="1008" value="DNP" x="51.054" y="3.302" smashed="yes">
 <attribute name="NAME" x="51.054" y="0.762" size="0.889" layer="25"/>
 <attribute name="VALUE" x="53.34" y="2.286" size="1.27" layer="27"/>
 </element>
@@ -822,7 +833,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="2.47" y="61.3598" size="0.889" layer="25" font="vector" rot="R270"/>
 <attribute name="PARTNO" value="PHP01206E10R0BST5" x="5.6642" y="60.198" size="1.778" layer="27" display="off"/>
 </element>
-<element name="JP2" library="pinhead" package="1X03" value="" x="5.842" y="48.26" smashed="yes" rot="MR180">
+<element name="JP2" library="pinhead" package="1X03" value="DNP" x="5.842" y="48.26" smashed="yes" rot="MR180">
 <attribute name="NAME" x="1.9558" y="45.1612" size="1.27" layer="26" ratio="10" rot="MR180"/>
 <attribute name="PARTNO" value="640456-3" x="5.842" y="48.26" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="2.032" y="51.435" size="1.27" layer="28" rot="MR180"/>
@@ -830,7 +841,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="CON4" library="qkdlab_alessandro" package="UMC_CONNECTOR" value="UMC_CONNECTORREGULAR" x="7.112" y="63.5" rot="MR270">
 <attribute name="PARTNO" value="1909763-1" x="7.112" y="63.5" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="LG1" library="jqi_passives" package="1008" value="" x="3.302" y="57.15" smashed="yes" rot="R270">
+<element name="LG1" library="jqi_passives" package="1008" value="DNP" x="3.302" y="57.15" smashed="yes" rot="R270">
 <attribute name="NAME" x="0.762" y="57.15" size="0.889" layer="25" rot="R270"/>
 <attribute name="VALUE" x="2.286" y="54.864" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -881,7 +892,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="105.734" y="46.8442" size="0.889" layer="25" font="vector" rot="R90"/>
 <attribute name="PARTNO" value="PHP01206E10R0BST5" x="102.5398" y="48.006" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="JP3" library="pinhead" package="1X03" value="" x="102.362" y="59.944" smashed="yes" rot="MR0">
+<element name="JP3" library="pinhead" package="1X03" value="DNP" x="102.362" y="59.944" smashed="yes" rot="MR0">
 <attribute name="NAME" x="106.2482" y="63.0428" size="1.27" layer="26" ratio="10" rot="MR0"/>
 <attribute name="PARTNO" value="640456-3" x="102.362" y="59.944" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="106.172" y="56.769" size="1.27" layer="28" rot="MR0"/>
@@ -889,7 +900,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="CON6" library="qkdlab_alessandro" package="UMC_CONNECTOR" value="UMC_CONNECTORREGULAR" x="101.092" y="44.704" rot="MR90">
 <attribute name="PARTNO" value="1909763-1" x="101.092" y="44.704" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="LG2" library="jqi_passives" package="1008" value="" x="104.902" y="51.054" smashed="yes" rot="R90">
+<element name="LG2" library="jqi_passives" package="1008" value="DNP" x="104.902" y="51.054" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.442" y="51.054" size="0.889" layer="25" rot="R90"/>
 <attribute name="VALUE" x="105.918" y="53.34" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -897,8 +908,12 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="LW4" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="7.112" y="60.198"/>
 <element name="LW5" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="95.504" y="54.737"/>
 <element name="LW6" library="RFantenna" package="LITZ_100MHZ" value="LITZ_TERM" x="101.092" y="48.006"/>
-<element name="X1" library="connector-jqi" package="SMA-V" value="SMA-V" x="49.276" y="102.616" rot="MR0"/>
-<element name="X2" library="connector-jqi" package="SMA-V" value="SMA-V" x="58.674" y="102.616" rot="MR0"/>
+<element name="X1" library="connector-jqi" package="SMA-V" value="SMA-V" x="49.276" y="102.616" rot="MR0">
+<attribute name="PARTNO" value="5-1814832-1" x="49.276" y="102.616" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="X2" library="connector-jqi" package="SMA-V" value="SMA-V" x="58.674" y="102.616" rot="MR0">
+<attribute name="PARTNO" value="5-1814832-1" x="58.674" y="102.616" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 <element name="C16" library="jqi_passives" package="C_MLCC_0402" value="3pF" x="62.738" y="85.4202" smashed="yes" rot="R180">
 <attribute name="NAME" x="61.86" y="86.0902" size="1.016" layer="25" font="vector" rot="R180"/>
 <attribute name="PARTNO" value="500R07S3R0BV4T" x="62.738" y="85.4202" size="1.778" layer="27" rot="R180" display="off"/>
@@ -907,6 +922,14 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="62.854" y="87.9125" size="1.016" layer="25" font="vector"/>
 <attribute name="PARTNO" value="500R07S0R3AV4T" x="63.4365" y="86.868" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="FID1" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="5.588" y="68.072"/>
+<element name="FID2" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="40.132" y="5.334"/>
+<element name="FID3" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="103.124" y="40.132"/>
+<element name="FID4" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="67.564" y="103.378"/>
+<element name="FID5" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="68.072" y="5.842" rot="MR0"/>
+<element name="FID6" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="40.64" y="102.87" rot="MR0"/>
+<element name="FID7" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="5.842" y="39.878" rot="MR0"/>
+<element name="FID8" library="fiducials-jqi" package="FID_1.0MM" value="FIDUCIAL-1.0MM" x="102.616" y="68.072" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">

@@ -1424,6 +1424,63 @@ Additional passive components (RLC and trimpots) can be added.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="fiducials-jqi">
+<packages>
+<package name="FID_1.0MM">
+<description>1 mm SMD Fiducial in 3 mm Opening</description>
+<smd name="FID" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" thermals="no" cream="no"/>
+<circle x="0" y="0" radius="0.75" width="1.5" layer="29"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="0.75" width="1.5" layer="41"/>
+</package>
+<package name="FID_1.5MM">
+<description>1.5 mm SMD Fiducial in 4 mm Opening</description>
+<smd name="FID" x="0" y="0" dx="1.5" dy="1.5" layer="1" roundness="100" thermals="no" cream="no"/>
+<circle x="0" y="0" radius="1" width="2" layer="29"/>
+<circle x="0" y="0" radius="2" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="1" width="2" layer="41"/>
+</package>
+<package name="FID_2.0MM">
+<description>2 mm SMD Fiducial in 5mm Opening</description>
+<smd name="FID" x="0" y="0" dx="2" dy="2" layer="1" roundness="100" thermals="no" cream="no"/>
+<circle x="0" y="0" radius="1.25" width="2.5" layer="29"/>
+<circle x="0" y="0" radius="2.5" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="1.25" width="2.5" layer="41"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FIDUCIAL">
+<description>Fiducial Name w/ Part Size Value</description>
+<text x="0" y="0" size="1.27" layer="95">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL" prefix="FID">
+<description>SMD Fiducials for optical recognition systems</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1.0MM" package="FID_1.0MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1.5MM" package="FID_1.5MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2.0MM" package="FID_2.0MM">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1480,7 +1537,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="PARTNO" value="PHP01206E10R0BST5"/>
 </part>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP1" library="pinhead" deviceset="PINHD-1X3" device="">
+<part name="JP1" library="pinhead" deviceset="PINHD-1X3" device="" value="DNP">
 <attribute name="PARTNO" value="640456-3"/>
 </part>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
@@ -1489,7 +1546,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="CON1" library="qkdlab_alessandro" deviceset="UMC_CONNECTOR" device="REGULAR">
 <attribute name="PARTNO" value="1909763-1"/>
 </part>
-<part name="LG" library="jqi_passives" deviceset="L_FERRITE_SMD" device="_1008"/>
+<part name="LG" library="jqi_passives" deviceset="L_FERRITE_SMD" device="_1008" value="DNP"/>
 <part name="FRAME3" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="U1" library="opamp-jqi" deviceset="THS3091DDAR" device="">
 <attribute name="PARTNO" value="THS3091DDAR"/>
@@ -1531,7 +1588,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="PARTNO" value="PHP01206E10R0BST5"/>
 </part>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X3" device="">
+<part name="JP2" library="pinhead" deviceset="PINHD-1X3" device="" value="DNP">
 <attribute name="PARTNO" value="640456-3"/>
 </part>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
@@ -1540,7 +1597,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="CON4" library="qkdlab_alessandro" deviceset="UMC_CONNECTOR" device="REGULAR">
 <attribute name="PARTNO" value="1909763-1"/>
 </part>
-<part name="LG1" library="jqi_passives" deviceset="L_FERRITE_SMD" device="_1008"/>
+<part name="LG1" library="jqi_passives" deviceset="L_FERRITE_SMD" device="_1008" value="DNP"/>
 <part name="FRAME4" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="U2" library="opamp-jqi" deviceset="THS3091DDAR" device="">
 <attribute name="PARTNO" value="THS3091DDAR"/>
@@ -1582,7 +1639,7 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="PARTNO" value="PHP01206E10R0BST5"/>
 </part>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP3" library="pinhead" deviceset="PINHD-1X3" device="">
+<part name="JP3" library="pinhead" deviceset="PINHD-1X3" device="" value="DNP">
 <attribute name="PARTNO" value="640456-3"/>
 </part>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+15V" device=""/>
@@ -1591,13 +1648,17 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="CON6" library="qkdlab_alessandro" deviceset="UMC_CONNECTOR" device="REGULAR">
 <attribute name="PARTNO" value="1909763-1"/>
 </part>
-<part name="LG2" library="jqi_passives" deviceset="L_FERRITE_SMD" device="_1008"/>
+<part name="LG2" library="jqi_passives" deviceset="L_FERRITE_SMD" device="_1008" value="DNP"/>
 <part name="LW3" library="RFantenna" deviceset="LITZ_TERM" device=""/>
 <part name="LW4" library="RFantenna" deviceset="LITZ_TERM" device=""/>
 <part name="LW5" library="RFantenna" deviceset="LITZ_TERM" device=""/>
 <part name="LW6" library="RFantenna" deviceset="LITZ_TERM" device=""/>
-<part name="X1" library="connector-jqi" deviceset="SMA" device="-V"/>
-<part name="X2" library="connector-jqi" deviceset="SMA" device="-V"/>
+<part name="X1" library="connector-jqi" deviceset="SMA" device="-V">
+<attribute name="PARTNO" value="5-1814832-1"/>
+</part>
+<part name="X2" library="connector-jqi" deviceset="SMA" device="-V">
+<attribute name="PARTNO" value="5-1814832-1"/>
+</part>
 <part name="FRAME1" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="C16" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="3pF">
 <attribute name="PARTNO" value="500R07S3R0BV4T"/>
@@ -1605,6 +1666,14 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="C17" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_0402" value="0.3pF">
 <attribute name="PARTNO" value="500R07S0R3AV4T"/>
 </part>
+<part name="FID1" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="FID2" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="FID3" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="FID4" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="FID5" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="FID6" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="FID7" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
+<part name="FID8" library="fiducials-jqi" deviceset="FIDUCIAL" device="-1.0MM"/>
 </parts>
 <sheets>
 <sheet>
@@ -2364,8 +2433,12 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <plain>
 </plain>
 <instances>
-<instance part="X1" gate="G$1" x="35.56" y="67.31"/>
-<instance part="X2" gate="G$1" x="34.29" y="26.67"/>
+<instance part="X1" gate="G$1" x="35.56" y="67.31">
+<attribute name="PARTNO" x="35.56" y="67.31" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="X2" gate="G$1" x="34.29" y="26.67">
+<attribute name="PARTNO" x="34.29" y="26.67" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
 <instance part="C16" gate="G$1" x="59.69" y="26.67">
@@ -2374,6 +2447,14 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <instance part="C17" gate="G$1" x="52.07" y="29.21" rot="R90">
 <attribute name="PARTNO" x="52.07" y="29.21" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="FID1" gate="G$1" x="196.85" y="53.34"/>
+<instance part="FID2" gate="G$1" x="210.82" y="53.34"/>
+<instance part="FID3" gate="G$1" x="224.79" y="53.34"/>
+<instance part="FID4" gate="G$1" x="238.76" y="53.34"/>
+<instance part="FID5" gate="G$1" x="196.85" y="48.26"/>
+<instance part="FID6" gate="G$1" x="210.82" y="48.26"/>
+<instance part="FID7" gate="G$1" x="224.79" y="48.26"/>
+<instance part="FID8" gate="G$1" x="238.76" y="48.26"/>
 </instances>
 <busses>
 </busses>
