@@ -1,4 +1,4 @@
-#MacroFab, INC. PASTE data for C:/users/dsb1/Desktop/GitHub/matched-RF-antenna/RF-antenna/RF-antenna.brd.
+#MacroFab, INC. PASTE data for C:/Users/cavslab/Desktop/Github/matched-RF-antenna/RF-antenna/RF-antenna.brd.
 #
 #PASTE Data:
 #Designator	X-Loc	Y-Loc	Side	Type	X-Size	Y-Size
@@ -32,10 +32,6 @@ C14	3930.00	2458.98	1	1	35.43	62.99
 C14	3930.00	2581.02	1	1	35.43	62.99
 C15	4089.69	2160.00	1	1	19.69	19.69
 C15	4050.31	2160.00	1	1	19.69	19.69
-C16	2489.69	3363.00	1	1	19.69	19.69
-C16	2450.31	3363.00	1	1	19.69	19.69
-C17	2497.50	3439.69	1	1	19.69	19.69
-C17	2497.50	3400.31	1	1	19.69	19.69
 CON1	1818.00	280.00	2	1	41.00	39.00
 CON1	1760.00	222.00	2	1	41.00	87.00
 CON1	1760.00	338.00	2	1	41.00	87.00
