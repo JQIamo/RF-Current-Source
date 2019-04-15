@@ -1510,10 +1510,10 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="PARTNO" value="06035C104K4Z2A"/>
 </part>
 <part name="C3" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10uF">
-<attribute name="PARTNO" value="C3216X5R1H106K160AB"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE"/>
 </part>
 <part name="C4" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10uF">
-<attribute name="PARTNO" value="C3216X5R1H106K160AB"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE"/>
 </part>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CON2" library="qkdlab_alessandro" deviceset="UMC_CONNECTOR" device="REGULAR">
@@ -1522,11 +1522,11 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="R1" library="jqi_passives" deviceset="R_SMD" device="R0402" value="49.9">
 <attribute name="PARTNO" value="ERA-2AEB49R9X"/>
 </part>
-<part name="RG" library="jqi_passives" deviceset="R_SMD" device="R0402" value="95.3">
-<attribute name="PARTNO" value="ERA-2AEB95R3X"/>
+<part name="RG" library="jqi_passives" deviceset="R_SMD" device="R0402" value="24.3">
+<attribute name="PARTNO" value="RP73PF1E24R3BTD"/>
 </part>
-<part name="RF" library="jqi_passives" deviceset="R_SMD" device="R0603" value="866">
-<attribute name="PARTNO" value="ERA-3AEB8660V"/>
+<part name="RF" library="jqi_passives" deviceset="R_SMD" device="R0603" value="220">
+<attribute name="PARTNO" value="TNPW0603220RBEEA"/>
 </part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1561,10 +1561,10 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="PARTNO" value="06035C104K4Z2A"/>
 </part>
 <part name="C8" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10uF">
-<attribute name="PARTNO" value="C3216X5R1H106K160AB"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE"/>
 </part>
 <part name="C9" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10uF">
-<attribute name="PARTNO" value="C3216X5R1H106K160AB"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE"/>
 </part>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CON3" library="qkdlab_alessandro" deviceset="UMC_CONNECTOR" device="REGULAR">
@@ -1573,11 +1573,11 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="R2" library="jqi_passives" deviceset="R_SMD" device="R0402" value="49.9">
 <attribute name="PARTNO" value="ERA-2AEB49R9X"/>
 </part>
-<part name="RG1" library="jqi_passives" deviceset="R_SMD" device="R0402" value="95.3">
-<attribute name="PARTNO" value="ERA-2AEB95R3X"/>
+<part name="RG1" library="jqi_passives" deviceset="R_SMD" device="R0402" value="46.4">
+<attribute name="PARTNO" value="RP73PF1E46R4BTD"/>
 </part>
-<part name="RF1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="866">
-<attribute name="PARTNO" value="ERA-3AEB8660V"/>
+<part name="RF1" library="jqi_passives" deviceset="R_SMD" device="R0603" value="422">
+<attribute name="PARTNO" value="TNPW0603422RBEEA"/>
 </part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -1612,10 +1612,10 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <attribute name="PARTNO" value="06035C104K4Z2A"/>
 </part>
 <part name="C13" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10uF">
-<attribute name="PARTNO" value="C3216X5R1H106K160AB"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE"/>
 </part>
 <part name="C14" library="jqi_passives" deviceset="C_MLCC_SMD" device="CMLCC_1206" value="10uF">
-<attribute name="PARTNO" value="C3216X5R1H106K160AB"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE"/>
 </part>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="CON5" library="qkdlab_alessandro" deviceset="UMC_CONNECTOR" device="REGULAR">
@@ -1624,11 +1624,11 @@ Additional passive components (RLC and trimpots) can be added.</description>
 <part name="R3" library="jqi_passives" deviceset="R_SMD" device="R0402" value="49.9">
 <attribute name="PARTNO" value="ERA-2AEB49R9X"/>
 </part>
-<part name="RG2" library="jqi_passives" deviceset="R_SMD" device="R0402" value="95.3">
-<attribute name="PARTNO" value="ERA-2AEB95R3X"/>
+<part name="RG2" library="jqi_passives" deviceset="R_SMD" device="R0402" value="46.4">
+<attribute name="PARTNO" value="RP73PF1E46R4BTD"/>
 </part>
-<part name="RF2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="866">
-<attribute name="PARTNO" value="ERA-3AEB8660V"/>
+<part name="RF2" library="jqi_passives" deviceset="R_SMD" device="R0603" value="422">
+<attribute name="PARTNO" value="TNPW0603422RBEEA"/>
 </part>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>

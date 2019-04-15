@@ -752,11 +752,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="C3" library="jqi_passives" package="C_MLCC_1206" value="10uF" x="64.008" y="3.302" smashed="yes">
 <attribute name="NAME" x="61.808" y="4.602" size="0.889" layer="25" font="vector"/>
-<attribute name="PARTNO" value="C3216X5R1H106K160AB" x="64.008" y="3.302" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE" x="64.008" y="3.302" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C4" library="jqi_passives" package="C_MLCC_1206" value="10uF" x="64.008" y="8.382" smashed="yes">
 <attribute name="NAME" x="61.808" y="6.126" size="0.889" layer="25" font="vector"/>
-<attribute name="PARTNO" value="C3216X5R1H106K160AB" x="64.008" y="8.382" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE" x="64.008" y="8.382" size="1.778" layer="27" display="off"/>
 </element>
 <element name="CON2" library="qkdlab_alessandro" package="UMC_CONNECTOR" value="UMC_CONNECTORREGULAR" x="51.816" y="2.54" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="1909763-1" x="51.816" y="2.54" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -765,13 +765,13 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="55.718" y="3.794" size="0.889" layer="25" font="vector" ratio="10" rot="R270"/>
 <attribute name="PARTNO" value="ERA-2AEB49R9X" x="56.134" y="4.826" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="RG" library="jqi_passives" package="R_0402" value="95.3" x="53.34" y="4.826" smashed="yes" rot="R270">
+<element name="RG" library="jqi_passives" package="R_0402" value="24.3" x="53.34" y="4.826" smashed="yes" rot="R270">
 <attribute name="NAME" x="52.924" y="3.794" size="0.889" layer="25" font="vector" ratio="10" rot="R270"/>
-<attribute name="PARTNO" value="ERA-2AEB95R3X" x="53.34" y="4.826" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="RP73PF1E24R3BTD" x="53.34" y="4.826" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="RF" library="jqi_passives" package="R_0603" value="866" x="50.038" y="6.35" smashed="yes" rot="R90">
+<element name="RF" library="jqi_passives" package="R_0603" value="220" x="50.038" y="6.35" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.254" y="7.69" size="0.889" layer="25" font="vector" rot="R90"/>
-<attribute name="PARTNO" value="ERA-3AEB8660V" x="50.038" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="TNPW0603220RBEEA" x="50.038" y="6.35" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C5" library="jqi_passives" package="C_MLCC_0402" value="10nF" x="54.864" y="4.826" smashed="yes" rot="R90">
 <attribute name="NAME" x="54.448" y="3.694" size="0.889" layer="25" font="vector" rot="R270"/>
@@ -811,11 +811,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="C8" library="jqi_passives" package="C_MLCC_1206" value="10uF" x="3.302" y="44.196" smashed="yes" rot="R270">
 <attribute name="NAME" x="4.602" y="46.396" size="0.889" layer="25" font="vector" rot="R270"/>
-<attribute name="PARTNO" value="C3216X5R1H106K160AB" x="3.302" y="44.196" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE" x="3.302" y="44.196" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C9" library="jqi_passives" package="C_MLCC_1206" value="10uF" x="8.382" y="44.196" smashed="yes" rot="R270">
 <attribute name="NAME" x="6.126" y="46.396" size="0.889" layer="25" font="vector" rot="R270"/>
-<attribute name="PARTNO" value="C3216X5R1H106K160AB" x="8.382" y="44.196" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE" x="8.382" y="44.196" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CON3" library="qkdlab_alessandro" package="UMC_CONNECTOR" value="UMC_CONNECTORREGULAR" x="2.54" y="56.388" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="1909763-1" x="2.54" y="56.388" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -824,13 +824,13 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="3.794" y="52.486" size="0.889" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="PARTNO" value="ERA-2AEB49R9X" x="4.826" y="52.07" size="1.778" layer="27" display="off"/>
 </element>
-<element name="RG1" library="jqi_passives" package="R_0402" value="95.3" x="4.826" y="54.864" smashed="yes" rot="R180">
+<element name="RG1" library="jqi_passives" package="R_0402" value="46.4" x="4.826" y="54.864" smashed="yes" rot="R180">
 <attribute name="NAME" x="3.794" y="55.28" size="0.889" layer="25" font="vector" ratio="10" rot="R180"/>
-<attribute name="PARTNO" value="ERA-2AEB95R3X" x="4.826" y="54.864" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="RP73PF1E46R4BTD" x="4.826" y="54.864" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="RF1" library="jqi_passives" package="R_0603" value="866" x="6.35" y="58.166" smashed="yes">
+<element name="RF1" library="jqi_passives" package="R_0603" value="422" x="6.35" y="58.166" smashed="yes">
 <attribute name="NAME" x="7.69" y="57.95" size="0.889" layer="25" font="vector"/>
-<attribute name="PARTNO" value="ERA-3AEB8660V" x="6.35" y="58.166" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="TNPW0603422RBEEA" x="6.35" y="58.166" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C10" library="jqi_passives" package="C_MLCC_0402" value="10nF" x="4.826" y="53.34" smashed="yes">
 <attribute name="NAME" x="3.694" y="53.756" size="0.889" layer="25" font="vector" rot="R180"/>
@@ -870,11 +870,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </element>
 <element name="C13" library="jqi_passives" package="C_MLCC_1206" value="10uF" x="104.902" y="64.008" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.602" y="61.808" size="0.889" layer="25" font="vector" rot="R90"/>
-<attribute name="PARTNO" value="C3216X5R1H106K160AB" x="104.902" y="64.008" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE" x="104.902" y="64.008" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C14" library="jqi_passives" package="C_MLCC_1206" value="10uF" x="99.822" y="64.008" smashed="yes" rot="R90">
 <attribute name="NAME" x="102.078" y="61.808" size="0.889" layer="25" font="vector" rot="R90"/>
-<attribute name="PARTNO" value="C3216X5R1H106K160AB" x="99.822" y="64.008" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="CL31A106MBHNNNE" x="99.822" y="64.008" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="CON5" library="qkdlab_alessandro" package="UMC_CONNECTOR" value="UMC_CONNECTORREGULAR" x="105.664" y="51.816" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="1909763-1" x="105.664" y="51.816" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -883,13 +883,13 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <attribute name="NAME" x="104.41" y="55.718" size="0.889" layer="25" font="vector" ratio="10"/>
 <attribute name="PARTNO" value="ERA-2AEB49R9X" x="103.378" y="56.134" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="RG2" library="jqi_passives" package="R_0402" value="95.3" x="103.378" y="53.34" smashed="yes">
+<element name="RG2" library="jqi_passives" package="R_0402" value="46.4" x="103.378" y="53.34" smashed="yes">
 <attribute name="NAME" x="104.41" y="52.924" size="0.889" layer="25" font="vector" ratio="10"/>
-<attribute name="PARTNO" value="ERA-2AEB95R3X" x="103.378" y="53.34" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="RP73PF1E46R4BTD" x="103.378" y="53.34" size="1.778" layer="27" display="off"/>
 </element>
-<element name="RF2" library="jqi_passives" package="R_0603" value="866" x="101.854" y="50.038" smashed="yes" rot="R180">
+<element name="RF2" library="jqi_passives" package="R_0603" value="422" x="101.854" y="50.038" smashed="yes" rot="R180">
 <attribute name="NAME" x="100.514" y="50.254" size="0.889" layer="25" font="vector" rot="R180"/>
-<attribute name="PARTNO" value="ERA-3AEB8660V" x="101.854" y="50.038" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="TNPW0603422RBEEA" x="101.854" y="50.038" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C15" library="jqi_passives" package="C_MLCC_0402" value="10nF" x="103.378" y="54.864" smashed="yes" rot="R180">
 <attribute name="NAME" x="104.51" y="54.448" size="0.889" layer="25" font="vector"/>
