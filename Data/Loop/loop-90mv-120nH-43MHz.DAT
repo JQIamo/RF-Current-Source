@@ -1,0 +1,29 @@
+Type;FSV-30;
+Version;2.30 SP4;
+Date;14.Mar 20;
+Mode;ANALYZER;
+Center Freq;50050000.000000;Hz
+Freq Offset;0.000000;Hz
+Span;99900000.000000;Hz
+x-Axis;LIN;
+Start;100000.000000;Hz
+Stop;100000000.000000;Hz
+Ref Level;2.000000;V
+Level Offset;0.000000;dB
+Ref Position;100.000000;%
+y-Axis;LOG;
+Level Range;100.000000;dB
+Rf Att;35.000000;dB
+El Att;0.000000;dB
+RBW;3000.000000;Hz
+VBW;3000.000000;Hz
+SWT;0.014538;s
+Trace Mode;BLANK;
+Detector;AUTOPEAK;
+Sweep Count;0;
+Trace 2:;;
+x-Unit;Hz;
+y-Unit;V;
+Preamplifier;OFF;
+Transducer;OFF;
+Values;691;
