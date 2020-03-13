@@ -1,0 +1,31 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=0,0,1045,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=Converter_Stability.dat>
+  <DataDisplay=Converter_Stability.sch>
+  <OpenDisplay=1>
+  <Script=Converter_Stability.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 90 618 908 288 3 #c0c0c0 1 00 1 9e+07 1e+06 1e+08 1 0 1 10 1 -1 0.5 1 315 0 225 "" "" "">
+	<"phase" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 90 287 908 267 3 #c0c0c0 1 00 1 9e+07 1e+06 1e+08 1 -40 1 -20 1 -1 0.5 1 315 0 225 "" "" "">
+	<"gain" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
