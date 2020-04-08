@@ -1,0 +1,31 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=0,0,910,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=Transimpedance.dat>
+  <DataDisplay=Transimpedance.sch>
+  <OpenDisplay=1>
+  <Script=Transimpedance.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 80 624 382 264 3 #c0c0c0 1 10 1 10000 1 1e+09 0 30 10 120 1 -1 0.5 1 315 0 225 "" "" "">
+	<"Z" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 80 316 382 256 3 #c0c0c0 1 10 0 10000 1 1e+06 0 110 1 120 1 -1 0.5 1 315 0 225 "" "" "">
+	<"Z" #ff0000 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
