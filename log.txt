@@ -1,10 +1,10 @@
 Output:
 -------
 
-Starting new simulation on Fri 13. Mar 2020 at 11:31:09:225
+Starting new simulation on Fri 10. Apr 2020 at 08:43:44:668
 
 creating netlist... done.
-Starting C:/Users/dsb1/Desktop/qucs-0.0.19-win32-mingw482-asco-freehdl-adms/bin/qucsator.exe
+Starting /usr/local/bin/qucsator
 
 project location: 
 modules to load: 0
@@ -12,14 +12,15 @@ factorycreate.size() is 0
 factorycreate has registered:
 parsing netlist...
 checking netlist...
+checker notice, variable `Lc' in equation `Cp' not yet defined
+checker notice, variable `Pr3.v' in equation `I_meas' not yet defined
 checker notice, variable `Vin.v' in equation `gain' not yet defined
 checker notice, variable `Pr3.v' in equation `gain' not yet defined
 checker notice, variable `Pr1.i' in equation `I_coil' not yet defined
-checker notice, variable `Pr3.v' in equation `I_meas' not yet defined
 netlist content
       5 Idc instances
       4 Diode instances
-      1 IProbe instances
+      2 IProbe instances
       2 CCCS instances
       1 AC instances
       7 C instances
@@ -30,9 +31,15 @@ netlist content
       2 VProbe instances
      12 R instances
       1 VCCS instances
+      1 SW instances
       8 Vdc instances
       1 Vac instances
 creating netlist...
+checker notice, variable `Pr3.v' in equation `I_meas' not yet defined
+checker notice, variable `Vin.v' in equation `gain' not yet defined
+checker notice, variable `Pr3.v' in equation `gain' not yet defined
+checker notice, variable `Pr1.i' in equation `I_coil' not yet defined
+checker notice, variable `Pr3.v' in equation `I_meas' not yet defined
 checker notice, variable `Vin.v' in equation `gain' not yet defined
 checker notice, variable `Pr3.v' in equation `gain' not yet defined
 checker notice, variable `Pr1.i' in equation `I_coil' not yet defined
@@ -41,8 +48,11 @@ checker notice, variable `Vin.v' in equation `gain' not yet defined
 checker notice, variable `Pr3.v' in equation `gain' not yet defined
 checker notice, variable `Pr1.i' in equation `I_coil' not yet defined
 checker notice, variable `Pr3.v' in equation `I_meas' not yet defined
+checker notice, variable `Vin.v' in equation `gain' not yet defined
+checker notice, variable `Pr3.v' in equation `gain' not yet defined
+checker notice, variable `Pr1.i' in equation `I_coil' not yet defined
 
-Simulation ended on Fri 13. Mar 2020 at 11:31:10:051
+Simulation ended on Fri 10. Apr 2020 at 08:43:47:175
 Ready.
 
 
